@@ -1,0 +1,93 @@
+<html>
+
+<head>
+
+<title>FORMULARIO UNO</title>
+
+    
+    <link rel="stylesheet" type="text/css" href="estilos.css"/>
+    <script src="ScriptFormulario.js" type="text/javascript"></script>
+   
+
+
+</head>
+
+<body onload="Inicio()">
+
+   
+    <div class="fondo">
+        <form>
+            
+
+            <div>
+                <h2>Alumno </h2>
+            </div>
+            <div class="input-group" > 
+            <label for ="lblNombre">Nombre:</label>
+            <input type="text" id="txtNombre" placeholder="Escriba su nombre" />
+                </div>
+            <br />
+                <div >
+            <label for="lblDni">Dni:</label>
+            <input type="text" id="txtDni" />
+                </div>
+            <br />
+                <div>    
+            <label for="lblEdad">Edad:</label>
+            <input type="text" id="txtEdad" />
+                </div>
+            <br />
+                <div>
+            <label for="lblSexo" >Sexo: </label>
+                    <br />
+                    <br />
+                                                <input type="radio" name="sexo" id="rbnMasculino" value="Masculino" checked="checked"/> Masculino <br/>
+
+                                                
+                                                <input type="radio" name="sexo" id="rbnFemenino" value="Femenino" /> Femenino<br/>
+                                                <br />
+                    </div>
+            <br />
+            <div>
+                <label for="lblTurno">Turno:</label>
+                <select  id="turno" >
+                    <option value=""> </option>
+                    <option value="Mañana" >Mañana </option>
+                    <option value="Tarde" >Tarde </option>
+                    <option value="Noche" >Noche </option>
+
+
+                </select>
+            </div>
+                <br />
+                <br />
+            <div class="btn" >
+                <input  type="button" id="btnAceptar" onclick="Inicio()" value=Aceptar/>  
+                <button  type="button" id="btnCancelar">Cancelar</button>
+            </div>
+
+            <table id="tablaAlumnos"></table>
+
+            
+          
+                       
+
+                                                        
+
+
+
+            
+            
+            
+             
+        </form>
+    </div>
+
+
+
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,49 @@
+﻿body {
+
+
+    background:grey;
+}
+
+
+
+.fondo {
+    margin-top:5%;
+    margin-left:20%;
+    margin-right:20%;
+    
+background:white;
+border:black 2px solid;
+padding:2%;
+text-align:center;
+padding-bottom:20px;
+
+
+
+
+}
+
+form {
+    
+font-family:'Times New Roman', Times, serif;
+
+
+}
+
+
+
+
+
+
+
+button {
+height:30px;
+width:80px;
+margin:10px 
+}
+
+input {
+height:30px;
+width:80px;
+
+
+}
